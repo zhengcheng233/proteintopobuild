@@ -1,0 +1,51 @@
+-I: Adding /opt/amber20/dat/leap/prep to search path.
+-I: Adding /opt/amber20/dat/leap/lib to search path.
+-I: Adding /opt/amber20/dat/leap/parm to search path.
+-I: Adding /opt/amber20/dat/leap/cmd to search path.
+-f: Source run.sh.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./run.sh
+----- Source: /opt/amber20/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /opt/amber20/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /opt/amber20/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /opt/amber20/dat/leap/lib/amino12.lib
+Loading library: /opt/amber20/dat/leap/lib/aminoct12.lib
+Loading library: /opt/amber20/dat/leap/lib/aminont12.lib
+----- Source: /opt/amber20/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /opt/amber20/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /opt/amber20/dat/leap/lib/atomic_ions.lib
+Loading library: /opt/amber20/dat/leap/lib/solvents.lib
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /opt/amber20/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+  Solute vdw bounding box:              14.701 19.492 7.236
+  Total bounding box for atom centers:  30.701 35.492 23.236
+  Solvent unit box:                     18.774 18.774 18.774
+  Total vdw box size:                   33.998 38.880 26.192 angstroms.
+  Volume: 34621.033 A^3 
+  Total mass 13184.808 amu,  Density 0.632 g/cc
+  Added 712 residues.
+Writing pdb file: ala.pdb
+   printing CRYST1 record to PDB file with box info

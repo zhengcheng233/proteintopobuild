@@ -1,0 +1,5 @@
+source leaprc.protein.ff14SB # 使用适当的力场替换，如果需要
+source leaprc.water.tip3p # 使用适当的力场替换，如果需要
+molecule = loadpdb ala.pdb
+saveamberparm molecule mymolecule.prmtop mymolecule.inpcrd
+quit
